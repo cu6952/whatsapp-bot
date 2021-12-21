@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/abdullah5151/WhatsApoDuplicated /root/WhatsAsenaDuplicated
+RUN git clone https://github.com/cu6952/whatsapp-bot /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
